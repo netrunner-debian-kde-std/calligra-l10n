@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <adrien.grellier@laposte.net>
 Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.4.0), cmake
 Build-Depends: debhelper (>= 6)
-Standards-Version: 3.9.0
+Standards-Version: 3.9.2
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra-l10n.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra-l10n.git;a=summary
 
@@ -14,6 +14,7 @@ Architecture: all
 Recommends: kde-l10n-ca
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Catalan (ca) translations for Calligra
  This package contains the Catalan translations for all applications
  in the Calligra Office Suite.
@@ -23,6 +24,7 @@ Architecture: all
 Recommends: kde-l10n-cavalencia
 Suggests: calligra 
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description:  Southern Catalan (Valencian) (ca@valencia) translations for Calligra
  This package contains the Southern Catalan (Valencian) translations for all 
  applications in the Calligra Office Suite.
@@ -32,6 +34,7 @@ Architecture: all
 Recommends: kde-l10n-cs
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Czech (cs) translations for Calligra
  This package contains the Czech translations for all applications
  in the Calligra Office Suite.
@@ -41,6 +44,7 @@ Architecture: all
 Recommends: kde-l10n-da
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Danish (da) translations for Calligra
  This package contains the Danish translations for all applications
  in the Calligra Office Suite.
@@ -50,6 +54,7 @@ Architecture: all
 Recommends: kde-l10n-de
 Suggests: calligra, openthesaurus-de-kword
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: German (de) translations for Calligra
  This package contains the German translations for all applications
  in the Calligra Office Suite.
@@ -59,6 +64,7 @@ Architecture: all
 Recommends: kde-l10n-el
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Greek (el) translations for Calligra
  This package contains the greek translations for all applications
  in the Calligra Office Suite.
@@ -68,6 +74,7 @@ Architecture: all
 Recommends: kde-l10n-engb
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: British English (en_GB) translations for Calligra
  This package contains the British English (en_GB) translations
  for all applications in the Calligra Office Suite.
@@ -77,6 +84,7 @@ Architecture: all
 Recommends: kde-l10n-es
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Spanish (es) translations for Calligra
  This package contains the Spanish translations for all applications
  in the Calligra Office Suite.
@@ -86,6 +94,7 @@ Architecture: all
 Recommends: kde-l10n-et
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Estonian (et) translations for Calligra
  This package contains the Estonian translations for all applications
  in the Calligra Office Suite.
@@ -95,6 +104,7 @@ Architecture: all
 Recommends: kde-l10n-fr
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: French (fr) translations for Calligra
  This package contains the French translations for all applications
  in the Calligra Office Suite.
@@ -104,6 +114,7 @@ Architecture: all
 Recommends: kde-l10n-it
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Italian (it) translations for Calligra
  This package contains the Italian translations for all applications
  in the Calligra Office Suite.
@@ -113,6 +124,7 @@ Architecture: all
 Recommends: kde-l10n-kk
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Kazakh (kk) translations for Calligra
  This package contains the Kazakh translations for all applications
  in the Calligra Office Suite.
@@ -122,6 +134,7 @@ Architecture: all
 Recommends: kde-l10n-nb
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Norwegian Bookmal (nb) translations for Calligra
  This package contains the Norwegian Bookmal translations for all applications
  in the Calligra Office Suite.
@@ -131,6 +144,7 @@ Architecture: all
 Recommends: kde-l10n-nds
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Low Saxon (nds) translations for Calligra
  This package contains the Low Saxon translations for all applications
  in the Calligra Office Suite.
@@ -140,6 +154,7 @@ Architecture: all
 Recommends: kde-l10n-nl
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Dutch (nl) translations for Calligra
  This package contains the Dutch translations for all applications
  in the Calligra Office Suite.
@@ -149,6 +164,7 @@ Architecture: all
 Recommends: kde-l10n-pl
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Polish (pl) translations for Calligra
  This package contains the Polish translations for all applications
  in the Calligra Office Suite.
@@ -158,6 +174,7 @@ Architecture: all
 Recommends: kde-l10n-pt
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Portuguese (pt) translations for Calligra
  This package contains the Portuguese translations for all applications
  in the Calligra Office Suite.
@@ -167,6 +184,7 @@ Architecture: all
 Recommends: kde-l10n-ptbr
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Brazilian Portuguese (pt_BR) translations for Calligra
  This package contains the Brazilian Portuguese translations for all
  applications in the Calligra Office Suite.
@@ -176,6 +194,7 @@ Architecture: all
 Recommends: kde-l10n-ru
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Russian (ru) translations for Calligra
  This package contains the Russian translations for all applications
  in the Calligra Office Suite.
@@ -185,6 +204,7 @@ Architecture: all
 Recommends: kde-l10n-sv
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Swedish (sv) translations for Calligra
  This package contains the Swedish translations for all applications
  in the Calligra Office Suite.
@@ -194,6 +214,7 @@ Architecture: all
 Recommends: kde-l10n-uk
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Ukrainian (uk) translations for Calligra
  This package contains the Ukrainian translations for all applications
  in the Calligra Office Suite.
@@ -203,6 +224,7 @@ Architecture: all
 Recommends: kde-l10n-zhcn
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Chinese Simplified (zh_CN) localization files for Calligra
  This package contains the Chinese Simplified translation for all 
  applications in the Calligra Office Suite.
@@ -212,6 +234,7 @@ Architecture: all
 Recommends: kde-l10n-zhtw
 Suggests: calligra
 Provides: calligra-l10n
+Depends: ${misc:Depends}
 Description: Chinese Traditional (zh_TW) translations for Calligra
  This package contains the Chinese Traditional translations for all
  applications in the Calligra Office Suite.
