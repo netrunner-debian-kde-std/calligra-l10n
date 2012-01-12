@@ -41,7 +41,10 @@ $(STAMP_PATCH):
 	cd $(cur_lang_dir) && patch --set-utc -p1 < "$(CURDIR)/$(cur_lang_patch)" > $(CURDIR)/$@_log
 	mv $@_log $@
 
-build::
+build:: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp:
 	dh_testdir
 
 build:: check_control $(STAMP_EXTRACT) patch $(STAMP_BUILD)
