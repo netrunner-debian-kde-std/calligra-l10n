@@ -198,6 +198,15 @@ Description: Ukrainian (uk) translations for Calligra
  This package contains the Ukrainian translations for all applications
  in the Calligra Office Suite.
 
+Package: calligra-l10n-zhcn
+Architecture: all
+Recommends: kde-l10n-zhcn
+Suggests: calligra
+Provides: calligra-l10n
+Description: Chinese Simplified (zh_CN) localization files for Calligra
+ This package contains the Chinese Simplified translation for all 
+ applications in the Calligra Office Suite.
+
 Package: calligra-l10n-zhtw
 Architecture: all
 Recommends: kde-l10n-zhtw
