@@ -86,7 +86,6 @@ debian-clean:
 	# delete unpacked bzip2 languages
 	rm -rf $(L10N_PREFIX)-*-$(L10N_VERSION)/ debian/$(L10N_PREFIX)-*
 	rm -f debian/stamp__*
-	rm -f debian/*.debhelper.log
 	dh_clean
 
 binary-arch:
