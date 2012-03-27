@@ -6,8 +6,8 @@
 # Value of the calligra:{Depends,Recommends,Suggests,Replaces,Breaks,Provides}
 # substvars. Common relationships for each l10n package. 
 L10N_Depends :=
-L10N_Recommends :=
-L10N_Suggests := calligra
+L10N_Recommends := calligra
+L10N_Suggests :=
 L10N_Replaces :=
 L10N_Breaks :=
 L10N_Provides := calligra-l10n
