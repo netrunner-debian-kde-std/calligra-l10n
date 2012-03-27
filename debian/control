@@ -11,230 +11,276 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra-l10n.g
 
 Package: calligra-l10n-ca
 Architecture: all
-Recommends: kde-l10n-ca
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-ca
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Catalan (ca) translations for Calligra
  This package contains the Catalan translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-cavalencia
 Architecture: all
-Recommends: kde-l10n-cavalencia
-Suggests: calligra 
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-cavalencia
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description:  Southern Catalan (Valencian) (ca@valencia) translations for Calligra
  This package contains the Southern Catalan (Valencian) translations for all 
  applications in the Calligra Office Suite.
 
 Package: calligra-l10n-cs
 Architecture: all
-Recommends: kde-l10n-cs
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-cs
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Czech (cs) translations for Calligra
  This package contains the Czech translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-da
 Architecture: all
-Recommends: kde-l10n-da
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-da
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Danish (da) translations for Calligra
  This package contains the Danish translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-de
 Architecture: all
-Recommends: kde-l10n-de
-Suggests: calligra, openthesaurus-de-kword
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-de
+Suggests: ${calligra:Suggests}, openthesaurus-de-kword
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: German (de) translations for Calligra
  This package contains the German translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-el
 Architecture: all
-Recommends: kde-l10n-el
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-el
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Greek (el) translations for Calligra
  This package contains the greek translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-engb
 Architecture: all
-Recommends: kde-l10n-engb
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-engb
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: British English (en_GB) translations for Calligra
  This package contains the British English (en_GB) translations
  for all applications in the Calligra Office Suite.
  
 Package: calligra-l10n-es
 Architecture: all
-Recommends: kde-l10n-es
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-es
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Spanish (es) translations for Calligra
  This package contains the Spanish translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-et
 Architecture: all
-Recommends: kde-l10n-et
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-et
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Estonian (et) translations for Calligra
  This package contains the Estonian translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-fr
 Architecture: all
-Recommends: kde-l10n-fr
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-fr
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: French (fr) translations for Calligra
  This package contains the French translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-it
 Architecture: all
-Recommends: kde-l10n-it
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-it
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Italian (it) translations for Calligra
  This package contains the Italian translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-kk
 Architecture: all
-Recommends: kde-l10n-kk
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-kk
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Kazakh (kk) translations for Calligra
  This package contains the Kazakh translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-nb
 Architecture: all
-Recommends: kde-l10n-nb
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-nb
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Norwegian Bookmal (nb) translations for Calligra
  This package contains the Norwegian Bookmal translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-nds
 Architecture: all
-Recommends: kde-l10n-nds
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-nds
+Suggests: ${calligra:Suggests}i
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Low Saxon (nds) translations for Calligra
  This package contains the Low Saxon translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-nl
 Architecture: all
-Recommends: kde-l10n-nl
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-nl
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Dutch (nl) translations for Calligra
  This package contains the Dutch translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-pl
 Architecture: all
-Recommends: kde-l10n-pl
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-pl
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Polish (pl) translations for Calligra
  This package contains the Polish translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-pt
 Architecture: all
-Recommends: kde-l10n-pt
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-pt
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Portuguese (pt) translations for Calligra
  This package contains the Portuguese translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-ptbr
 Architecture: all
-Recommends: kde-l10n-ptbr
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-ptbr
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Brazilian Portuguese (pt_BR) translations for Calligra
  This package contains the Brazilian Portuguese translations for all
  applications in the Calligra Office Suite.
  
 Package: calligra-l10n-ru
 Architecture: all
-Recommends: kde-l10n-ru
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-ru
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Russian (ru) translations for Calligra
  This package contains the Russian translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-sv
 Architecture: all
-Recommends: kde-l10n-sv
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-sv
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Swedish (sv) translations for Calligra
  This package contains the Swedish translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-uk
 Architecture: all
-Recommends: kde-l10n-uk
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-uk
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Ukrainian (uk) translations for Calligra
  This package contains the Ukrainian translations for all applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-zhcn
 Architecture: all
-Recommends: kde-l10n-zhcn
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-zhcn
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Chinese Simplified (zh_CN) localization files for Calligra
  This package contains the Chinese Simplified translation for all 
  applications in the Calligra Office Suite.
 
 Package: calligra-l10n-zhtw
 Architecture: all
-Recommends: kde-l10n-zhtw
-Suggests: calligra
-Provides: calligra-l10n
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-zhtw
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
 Description: Chinese Traditional (zh_TW) translations for Calligra
  This package contains the Chinese Traditional translations for all
  applications in the Calligra Office Suite.
