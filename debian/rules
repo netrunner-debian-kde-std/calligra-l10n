@@ -71,7 +71,7 @@ $(STAMP_BUILD):
 install::
 	dh_testdir
 	dh_testroot
-	dh_clean -k
+	dh_prep
 
 install:: $(L10N_INSTALL)
 	# Installed successfully
