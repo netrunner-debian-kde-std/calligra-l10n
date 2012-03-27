@@ -12,18 +12,18 @@ L10N_Replaces :=
 L10N_Breaks :=
 L10N_Provides := calligra-l10n
 
-L10N_DIR_PREFIX := calligra-l10n
+L10N_PREFIX := calligra-l10n
 L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
-L10N_DIRS := $(subst .tar.bz2,,$(wildcard $(L10N_DIR_PREFIX)-*-$(L10N_VERSION).tar.bz2))
-L10N_LANGS := $(patsubst $(L10N_DIR_PREFIX)-%-$(L10N_VERSION),%,$(L10N_DIRS))
-L10N_PACKAGES :=$(patsubst %,$(L10N_DIR_PREFIX)-%,$(shell echo $(subst _,,$(subst @,,$(L10N_LANGS))) | tr A-Z a-z))
+L10N_DIRS := $(subst .tar.bz2,,$(wildcard $(L10N_PREFIX)-*-$(L10N_VERSION).tar.bz2))
+L10N_LANGS := $(patsubst $(L10N_PREFIX)-%-$(L10N_VERSION),%,$(L10N_DIRS))
+L10N_PACKAGES :=$(patsubst %,$(L10N_PREFIX)-%,$(shell echo $(subst _,,$(subst @,,$(L10N_LANGS))) | tr A-Z a-z))
 L10N_PATCHES := $(wildcard debian/patches/*.diff)
 
 # Support variables to be used in targets
 cur_lang = $(word 2,$(subst __, ,$@))
-cur_lang_dir = $(patsubst %,$(L10N_DIR_PREFIX)-%-$(L10N_VERSION),$(cur_lang))
+cur_lang_dir = $(patsubst %,$(L10N_PREFIX)-%-$(L10N_VERSION),$(cur_lang))
 cur_lang_patch = $(patsubst %,debian/patches/%.diff,$(cur_lang))
-cur_pkg = $(L10N_DIR_PREFIX)-$(shell echo $(subst _,,$(subst @,,$(cur_lang))) | tr A-Z a-z)
+cur_pkg = $(L10N_PREFIX)-$(shell echo $(subst _,,$(subst @,,$(cur_lang))) | tr A-Z a-z)
 
 # Stamps
 STAMP_EXTRACT := $(patsubst %,debian/stamp__%__extract,$(L10N_LANGS))
@@ -84,7 +84,7 @@ clean: debian-clean
 debian-clean:
 	dh_testdir
 	# delete unpacked bzip2 languages
-	rm -rf $(L10N_DIR_PREFIX)-*-$(L10N_VERSION)/ debian/$(L10N_DIR_PREFIX)-*
+	rm -rf $(L10N_PREFIX)-*-$(L10N_VERSION)/ debian/$(L10N_PREFIX)-*
 	rm -f debian/stamp__*
 	rm -f debian/*.debhelper.log
 	dh_clean
