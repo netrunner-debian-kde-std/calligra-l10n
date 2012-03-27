@@ -32,7 +32,7 @@ STAMP_BUILD := $(patsubst %,debian/stamp__%__build,$(L10N_LANGS))
 L10N_INSTALL := $(patsubst %,install__%,$(L10N_LANGS))
 
 # debian/control checks
-L10N_PACKAGES_IN_CONTROL := $(shell grep '^Package: ' debian/control | sed 's/^Package: //')
+L10N_PACKAGES_IN_CONTROL := $(shell dh_listpackages | grep '$(L10N_PREFIX)')
 L10N_NOTEXIST_IN_CONTROL := $(filter-out $(L10N_PACKAGES_IN_CONTROL),$(L10N_PACKAGES))
 L10N_EXCESS_IN_CONTROL := $(filter-out $(L10N_PACKAGES),$(L10N_PACKAGES_IN_CONTROL))
 
