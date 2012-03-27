@@ -90,7 +90,7 @@ debian-clean:
 	dh_clean
 
 binary-arch:
-	# Do architecture dependent files available
+	# No architecture dependent files available
 
 binary-indep: build install
 	dh_testroot
