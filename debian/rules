@@ -34,7 +34,7 @@ L10N_INSTALL := $(patsubst %,install__%,$(L10N_LANGS))
 # debian/control checks
 L10N_PACKAGES_IN_CONTROL := $(shell grep '^Package: ' debian/control | sed 's/^Package: //')
 L10N_NOTEXIST_IN_CONTROL := $(filter-out $(L10N_PACKAGES_IN_CONTROL),$(L10N_PACKAGES))
-L10N_EXCESS_IN_CONTROL := $(filter-out $(L10N_PACKAGES), $(L10N_PACKAGES_IN_CONTROL))
+L10N_EXCESS_IN_CONTROL := $(filter-out $(L10N_PACKAGES),$(L10N_PACKAGES_IN_CONTROL))
 
 check_control:
 	@test -z "$(L10N_NOTEXIST_IN_CONTROL)" || \
@@ -80,7 +80,6 @@ $(L10N_INSTALL):
 	# Installing '$(cur_lang)' to the '$(cur_pkg)' package
 	cd $(cur_lang_dir) && $(MAKE) install DESTDIR=$(CURDIR)/debian/$(cur_pkg)
 
-
 clean: debian-clean
 debian-clean:
 	dh_testdir
@@ -90,10 +89,8 @@ debian-clean:
 	rm -f debian/*.debhelper.log
 	dh_clean
 
-
 binary-arch:
 	# Do architecture dependent files available
-
 
 binary-indep: build install
 	dh_testroot
@@ -110,7 +107,6 @@ binary-indep: build install
 	dh_gencontrol -- $(foreach rel,Depends Recommends Suggests Replaces Breaks Provides,-V'calligra:$(rel)=$(L10N_$(rel))')
 	dh_md5sums
 	dh_builddeb -- -Zxz
-
 
 # Below here is fairly generic really
 binary: binary-indep binary-arch
