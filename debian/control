@@ -17,8 +17,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Catalan (ca) translations for Calligra
- This package contains the Catalan translations for all applications
+Description: Catalan (ca) localization files for Calligra
+ This package contains the Catalan translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-cavalencia
@@ -29,9 +29,9 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description:  Southern Catalan (Valencian) (ca@valencia) translations for Calligra
- This package contains the Southern Catalan (Valencian) translations for all 
- applications in the Calligra Office Suite.
+Description: Southern Catalan (Valencian) (ca@valencia) files for Calligra
+ This package contains the Southern Catalan (Valencian) translations for all
+ the applications in the Calligra Office Suite.
 
 Package: calligra-l10n-cs
 Architecture: all
@@ -41,8 +41,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Czech (cs) translations for Calligra
- This package contains the Czech translations for all applications
+Description: Czech (cs) localization files for Calligra
+ This package contains the Czech translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-da
@@ -53,8 +53,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Danish (da) translations for Calligra
- This package contains the Danish translations for all applications
+Description: Danish (da) localization files for Calligra
+ This package contains the Danish translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-de
@@ -65,8 +65,8 @@ Suggests: ${calligra:Suggests}, openthesaurus-de-kword
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: German (de) translations for Calligra
- This package contains the German translations for all applications
+Description: German (de) localization files for Calligra
+ This package contains the German translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-el
@@ -77,8 +77,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Greek (el) translations for Calligra
- This package contains the greek translations for all applications
+Description: Greek (el) localization files for Calligra
+ This package contains the greek translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-engb
@@ -89,9 +89,9 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: British English (en_GB) translations for Calligra
+Description: British English (en_GB) localization files for Calligra
  This package contains the British English (en_GB) translations
- for all applications in the Calligra Office Suite.
+ for all the applications in the Calligra Office Suite.
  
 Package: calligra-l10n-es
 Architecture: all
@@ -101,8 +101,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Spanish (es) translations for Calligra
- This package contains the Spanish translations for all applications
+Description: Spanish (es) localization files for Calligra
+ This package contains the Spanish translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-et
@@ -113,8 +113,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Estonian (et) translations for Calligra
- This package contains the Estonian translations for all applications
+Description: Estonian (et) localization files for Calligra
+ This package contains the Estonian translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-fr
@@ -125,8 +125,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: French (fr) translations for Calligra
- This package contains the French translations for all applications
+Description: French (fr) localization files for Calligra
+ This package contains the French translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-it
@@ -137,8 +137,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Italian (it) translations for Calligra
- This package contains the Italian translations for all applications
+Description: Italian (it) localization files for Calligra
+ This package contains the Italian translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-kk
@@ -149,8 +149,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Kazakh (kk) translations for Calligra
- This package contains the Kazakh translations for all applications
+Description: Kazakh (kk) localization files for Calligra
+ This package contains the Kazakh translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-nb
@@ -161,9 +161,9 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Norwegian Bookmal (nb) translations for Calligra
- This package contains the Norwegian Bookmal translations for all applications
- in the Calligra Office Suite.
+Description: Norwegian Bookmal (nb) localization files for Calligra
+ This package contains the Norwegian Bookmal translations for all
+ the applications in the Calligra Office Suite.
 
 Package: calligra-l10n-nds
 Architecture: all
@@ -173,8 +173,8 @@ Suggests: ${calligra:Suggests}i
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Low Saxon (nds) translations for Calligra
- This package contains the Low Saxon translations for all applications
+Description: Low Saxon (nds) localization files for Calligra
+ This package contains the Low Saxon translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-nl
@@ -185,8 +185,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Dutch (nl) translations for Calligra
- This package contains the Dutch translations for all applications
+Description: Dutch (nl) localization files for Calligra
+ This package contains the Dutch translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-pl
@@ -197,8 +197,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Polish (pl) translations for Calligra
- This package contains the Polish translations for all applications
+Description: Polish (pl) localization files for Calligra
+ This package contains the Polish translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-pt
@@ -209,8 +209,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Portuguese (pt) translations for Calligra
- This package contains the Portuguese translations for all applications
+Description: Portuguese (pt) localization files for Calligra
+ This package contains the Portuguese translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-ptbr
@@ -221,9 +221,9 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Brazilian Portuguese (pt_BR) translations for Calligra
+Description: Brazilian Portuguese (pt_BR) localization files for Calligra
  This package contains the Brazilian Portuguese translations for all
- applications in the Calligra Office Suite.
+ the applications in the Calligra Office Suite.
  
 Package: calligra-l10n-ru
 Architecture: all
@@ -233,8 +233,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Russian (ru) translations for Calligra
- This package contains the Russian translations for all applications
+Description: Russian (ru) localization files for Calligra
+ This package contains the Russian translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-sv
@@ -245,8 +245,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Swedish (sv) translations for Calligra
- This package contains the Swedish translations for all applications
+Description: Swedish (sv) localization files for Calligra
+ This package contains the Swedish translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-uk
@@ -257,8 +257,8 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Ukrainian (uk) translations for Calligra
- This package contains the Ukrainian translations for all applications
+Description: Ukrainian (uk) localization files for Calligra
+ This package contains the Ukrainian translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-zhcn
@@ -271,7 +271,7 @@ Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Chinese Simplified (zh_CN) localization files for Calligra
  This package contains the Chinese Simplified translation for all 
- applications in the Calligra Office Suite.
+ the applications in the Calligra Office Suite.
 
 Package: calligra-l10n-zhtw
 Architecture: all
@@ -281,6 +281,6 @@ Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
-Description: Chinese Traditional (zh_TW) translations for Calligra
+Description: Chinese Traditional (zh_TW) localization files for Calligra
  This package contains the Chinese Traditional translations for all
- applications in the Calligra Office Suite.
+ the applications in the Calligra Office Suite.
