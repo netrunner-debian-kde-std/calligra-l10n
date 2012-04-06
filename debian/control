@@ -128,6 +128,18 @@ Description: French (fr) localization files for Calligra
  This package contains the French translations for all the applications
  in the Calligra Office Suite.
 
+Package: calligra-l10n-hu
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-hu
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Hungarian (hu) localization files for Calligra
+ This package contains the Hungarian translations for all the applications
+ in the Calligra Office Suite.
+
 Package: calligra-l10n-it
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
@@ -234,6 +246,18 @@ Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Russian (ru) localization files for Calligra
  This package contains the Russian translations for all the applications
+ in the Calligra Office Suite.
+
+Package: calligra-l10n-sk
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-sk
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Slovakian (sk) localization files for Calligra
+ This package contains the Slovakian translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-sv
