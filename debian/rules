@@ -68,6 +68,8 @@ install: $(L10N_INSTALL)
 $(L10N_INSTALL): | prepare_install
 	# Installing '$(cur_lang)' to the '$(cur_pkg)' package
 	dh_auto_install -Scmake -D$(cur_lang) -B$(cur_lang_builddir) --destdir=$(CURDIR)/debian/$(cur_pkg)
+	# Remove extra desktop_calligra.mo file
+	rm --verbose debian/$(cur_pkg)/usr/share/locale/*/LC_MESSAGES/desktop_calligra.mo || true
 
 prepare_clean:
 	dh_testdir
