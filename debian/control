@@ -116,6 +116,18 @@ Description: Estonian (et) localization files for Calligra
  This package contains the Estonian translations for all the applications
  in the Calligra Office Suite.
 
+Package: calligra-l10n-fi
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-fi
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Finnish (fi) localization files for Calligra
+ This package contains the Finnish translations for all the applications
+ in the Calligra Office Suite.
+
 Package: calligra-l10n-fr
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
