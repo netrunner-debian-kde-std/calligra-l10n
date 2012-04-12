@@ -9,7 +9,7 @@ endif
 
 # Value of the calligra:{Depends,Recommends,Suggests,Replaces,Breaks,Provides}
 # substvars. Common relationships for each l10n package. 
-L10N_Depends :=
+L10N_Depends := calligra-libs (>= 1:2.4.0)
 L10N_Recommends := calligra
 L10N_Suggests :=
 L10N_Replaces :=
