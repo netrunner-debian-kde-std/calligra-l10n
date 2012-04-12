@@ -193,7 +193,7 @@ Package: calligra-l10n-nds
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-nds
-Suggests: ${calligra:Suggests}i
+Suggests: ${calligra:Suggests}
 Replaces: ${calligra:Replaces}
 Breaks: ${calligra:Breaks}
 Provides: ${calligra:Provides}
