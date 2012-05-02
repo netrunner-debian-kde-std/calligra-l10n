@@ -1,5 +1,5 @@
-calligra-l10n (1:2.4.0-0r1) UNRELEASED; urgency=low
+calligra-l10n (1:2.4.1-0r1) UNRELEASED; urgency=low
 
   * Initial release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 May 2011 11:45:52 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 May 2012 18:18:11 +0200
