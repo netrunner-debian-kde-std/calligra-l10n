@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <adrien.grellier@laposte.net>
-Build-Depends: cmake, debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.4.0)
+Build-Depends: cmake, debhelper (>= 7.3.16), bzip2, kdelibs5-dev (>= 4:4.4.0)
 Standards-Version: 3.9.3
 Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra-l10n.git
