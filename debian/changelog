@@ -5,6 +5,8 @@ calligra-l10n (1:2.4.2-0r1) UNRELEASED; urgency=low
   * Bump the debhelper build dependency to >= 7.3.16.
   * Bump the calligra-libs dependency to >= 2.4.2.
   * Demote the calligra recommend to suggest.
+  * Add Breaks/Replaces in each package against the old koffice-l10n of that
+    language.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 May 2012 21:08:24 +0200
 

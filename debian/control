@@ -14,8 +14,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-ca
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-ca (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-ca (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Catalan (ca) localization files for Calligra
  This package contains the Catalan translations for all the applications
@@ -26,8 +26,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-cavalencia
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-cavalencia (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-cavalencia (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Southern Catalan (Valencian) (ca@valencia) files for Calligra
  This package contains the Southern Catalan (Valencian) translations for all
@@ -38,8 +38,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-cs
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-cs (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-cs (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Czech (cs) localization files for Calligra
  This package contains the Czech translations for all the applications
@@ -50,8 +50,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-da
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-da (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-da (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Danish (da) localization files for Calligra
  This package contains the Danish translations for all the applications
@@ -62,8 +62,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-de
 Suggests: ${calligra:Suggests}, openthesaurus-de-kword
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-de (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-de (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: German (de) localization files for Calligra
  This package contains the German translations for all the applications
@@ -74,8 +74,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-el
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-el (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-el (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Greek (el) localization files for Calligra
  This package contains the greek translations for all the applications
@@ -86,8 +86,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-engb
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-engb (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-engb (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: British English (en_GB) localization files for Calligra
  This package contains the British English (en_GB) translations
@@ -98,8 +98,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-es
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-es (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-es (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Spanish (es) localization files for Calligra
  This package contains the Spanish translations for all the applications
@@ -110,8 +110,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-et
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-et (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-et (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Estonian (et) localization files for Calligra
  This package contains the Estonian translations for all the applications
@@ -122,8 +122,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-fi
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-fi (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-fi (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Finnish (fi) localization files for Calligra
  This package contains the Finnish translations for all the applications
@@ -134,8 +134,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-fr
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-fr (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-fr (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: French (fr) localization files for Calligra
  This package contains the French translations for all the applications
@@ -146,8 +146,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-hu
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-hu (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-hu (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Hungarian (hu) localization files for Calligra
  This package contains the Hungarian translations for all the applications
@@ -158,8 +158,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-it
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-it (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-it (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Italian (it) localization files for Calligra
  This package contains the Italian translations for all the applications
@@ -170,8 +170,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-kk
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-kk (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-kk (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Kazakh (kk) localization files for Calligra
  This package contains the Kazakh translations for all the applications
@@ -182,8 +182,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-nb
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-nb (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-nb (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Norwegian Bookmal (nb) localization files for Calligra
  This package contains the Norwegian Bookmal translations for all
@@ -194,8 +194,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-nds
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-nds (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-nds (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Low Saxon (nds) localization files for Calligra
  This package contains the Low Saxon translations for all the applications
@@ -206,8 +206,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-nl
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-nl (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-nl (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Dutch (nl) localization files for Calligra
  This package contains the Dutch translations for all the applications
@@ -218,8 +218,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-pl
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-pl (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-pl (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Polish (pl) localization files for Calligra
  This package contains the Polish translations for all the applications
@@ -230,8 +230,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-pt
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-pt (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-pt (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Portuguese (pt) localization files for Calligra
  This package contains the Portuguese translations for all the applications
@@ -242,8 +242,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-ptbr
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-ptbr (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-ptbr (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Brazilian Portuguese (pt_BR) localization files for Calligra
  This package contains the Brazilian Portuguese translations for all
@@ -254,8 +254,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-ru
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-ru (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-ru (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Russian (ru) localization files for Calligra
  This package contains the Russian translations for all the applications
@@ -266,8 +266,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-sk
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-sk (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-sk (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Slovakian (sk) localization files for Calligra
  This package contains the Slovakian translations for all the applications
@@ -278,8 +278,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-sv
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-sv (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-sv (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Swedish (sv) localization files for Calligra
  This package contains the Swedish translations for all the applications
@@ -290,8 +290,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-uk
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-uk (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-uk (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Ukrainian (uk) localization files for Calligra
  This package contains the Ukrainian translations for all the applications
@@ -302,8 +302,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-zhcn
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-zhcn (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-zhcn (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Chinese Simplified (zh_CN) localization files for Calligra
  This package contains the Chinese Simplified translation for all 
@@ -314,8 +314,8 @@ Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
 Recommends: ${calligra:Recommends}, kde-l10n-zhtw
 Suggests: ${calligra:Suggests}
-Replaces: ${calligra:Replaces}
-Breaks: ${calligra:Breaks}
+Replaces: koffice-l10n-zhtw (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-zhtw (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Chinese Traditional (zh_TW) localization files for Calligra
  This package contains the Chinese Traditional translations for all
