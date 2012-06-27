@@ -1,3 +1,10 @@
+calligra-l10n (1:2.4.3-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jun 2012 00:16:59 +0200
+
 calligra-l10n (1:2.4.2-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
