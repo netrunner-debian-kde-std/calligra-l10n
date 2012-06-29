@@ -1,11 +1,11 @@
-calligra-l10n (1:2.4.3-0r1) UNRELEASED; urgency=low
+calligra-l10n (1:2.4.3-0r1) unstable; urgency=low
 
   * Team upload.
 
   [ Pino Toscano ]
   * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jun 2012 00:16:59 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 29 Jun 2012 10:26:15 -0300
 
 calligra-l10n (1:2.4.2-1) UNRELEASED; urgency=low
 
