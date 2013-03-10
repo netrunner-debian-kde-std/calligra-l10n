@@ -9,6 +9,18 @@ Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra-l10n.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra-l10n.git;a=summary
 
+Package: calligra-l10n-bs
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-bs
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Bosnian (bs) localization files for Calligra
+ This package contains the Bosnian translations for all the applications
+ in the Calligra Office Suite.
+
 Package: calligra-l10n-ca
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
@@ -139,6 +151,18 @@ Breaks: koffice-l10n-fr (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: French (fr) localization files for Calligra
  This package contains the French translations for all the applications
+ in the Calligra Office Suite.
+
+Package: calligra-l10n-gl
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-gl
+Suggests: ${calligra:Suggests}
+Replaces: ${calligra:Replaces}
+Breaks: ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Galician (gl) localization files for Calligra
+ This package contains the Galician translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-hu
