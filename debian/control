@@ -1,5 +1,5 @@
 Source: calligra-l10n
-Section: kde
+Section: localization
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <adrien.grellier@laposte.net>
