@@ -1,4 +1,4 @@
-calligra-l10n (1:2.6.3-1) UNRELEASED; urgency=low
+calligra-l10n (1:2.6.4-1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * New upstream release:
@@ -8,7 +8,7 @@ calligra-l10n (1:2.6.3-1) UNRELEASED; urgency=low
   * These packages should be in section localization and not KDE
     (fix the override disparities)
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Sun, 10 Mar 2013 19:13:15 +0100
+ -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 04 Jun 2013 20:35:13 +0200
 
 calligra-l10n (1:2.4.3-1) unstable; urgency=low
 
