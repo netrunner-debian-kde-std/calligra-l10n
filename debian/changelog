@@ -1,4 +1,4 @@
-calligra-l10n (1:2.7.1-0r1.3) UNRELEASED; urgency=low
+calligra-l10n (1:2.7.1-0r1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * New upstream release:
@@ -11,6 +11,7 @@ calligra-l10n (1:2.7.1-0r1.3) UNRELEASED; urgency=low
   * lintian: debian-rules-missing-recommended-target
     add build-arch and build-indep targets 
   * update to Debian policy 3.9.4 (nothing to do) 
+  * upstream use now xz compression
 
  -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:19:04 +0200
 
