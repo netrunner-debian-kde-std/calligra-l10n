@@ -1,4 +1,4 @@
-calligra-l10n (1:2.6.4-1) UNRELEASED; urgency=low
+calligra-l10n (1:2.7.1-0r1.1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * New upstream release:
@@ -7,8 +7,9 @@ calligra-l10n (1:2.6.4-1) UNRELEASED; urgency=low
     - Czech translation is removed.
   * These packages should be in section localization and not KDE
     (fix the override disparities)
+  * update to my new official email address 
 
- -- Adrien Grellier <adrien.grellier@laposte.net>  Tue, 04 Jun 2013 20:35:13 +0200
+ -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:13:53 +0200
 
 calligra-l10n (1:2.4.3-1) unstable; urgency=low
 
