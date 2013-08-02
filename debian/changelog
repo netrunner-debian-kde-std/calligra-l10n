@@ -1,4 +1,4 @@
-calligra-l10n (1:2.7.1-0r1.2) UNRELEASED; urgency=low
+calligra-l10n (1:2.7.1-0r1.3) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * New upstream release:
@@ -10,8 +10,9 @@ calligra-l10n (1:2.7.1-0r1.2) UNRELEASED; urgency=low
   * update to my new official email address 
   * lintian: debian-rules-missing-recommended-target
     add build-arch and build-indep targets 
+  * update to Debian policy 3.9.4 (nothing to do) 
 
- -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:16:10 +0200
+ -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:19:04 +0200
 
 calligra-l10n (1:2.4.3-1) unstable; urgency=low
 
