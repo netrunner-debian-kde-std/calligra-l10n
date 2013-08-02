@@ -45,17 +45,17 @@ Description: Southern Catalan (Valencian) (ca@valencia) files for Calligra
  This package contains the Southern Catalan (Valencian) translations for all
  the applications in the Calligra Office Suite.
 
-#Package: calligra-l10n-cs
-# Architecture: all
-# Depends: ${misc:Depends}, ${calligra:Depends}
-# Recommends: ${calligra:Recommends}, kde-l10n-cs
-# Suggests: ${calligra:Suggests}
-# Replaces: koffice-l10n-cs (<< 1:2.4), ${calligra:Replaces}
-# Breaks: koffice-l10n-cs (<< 1:2.4), ${calligra:Breaks}
-# Provides: ${calligra:Provides}
-# Description: Czech (cs) localization files for Calligra
-#  This package contains the Czech translations for all the applications
-#  in the Calligra Office Suite.
+Package: calligra-l10n-cs
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-cs
+Suggests: ${calligra:Suggests}
+Replaces: koffice-l10n-cs (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-cs (<< 1:2.4), ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Czech (cs) localization files for Calligra
+ This package contains the Czech translations for all the applications
+ in the Calligra Office Suite.
 
 Package: calligra-l10n-da
 Architecture: all
@@ -93,17 +93,17 @@ Description: Greek (el) localization files for Calligra
  This package contains the greek translations for all the applications
  in the Calligra Office Suite.
 
-Package: calligra-l10n-engb
-Architecture: all
-Depends: ${misc:Depends}, ${calligra:Depends}
-Recommends: ${calligra:Recommends}, kde-l10n-engb
-Suggests: ${calligra:Suggests}
-Replaces: koffice-l10n-engb (<< 1:2.4), ${calligra:Replaces}
-Breaks: koffice-l10n-engb (<< 1:2.4), ${calligra:Breaks}
-Provides: ${calligra:Provides}
-Description: British English (en_GB) localization files for Calligra
- This package contains the British English (en_GB) translations
- for all the applications in the Calligra Office Suite.
+# Package: calligra-l10n-engb
+# Architecture: all
+# Depends: ${misc:Depends}, ${calligra:Depends}
+# Recommends: ${calligra:Recommends}, kde-l10n-engb
+# Suggests: ${calligra:Suggests}
+# Replaces: koffice-l10n-engb (<< 1:2.4), ${calligra:Replaces}
+# Breaks: koffice-l10n-engb (<< 1:2.4), ${calligra:Breaks}
+# Provides: ${calligra:Provides}
+# Description: British English (en_GB) localization files for Calligra
+#  This package contains the British English (en_GB) translations
+#  for all the applications in the Calligra Office Suite.
  
 Package: calligra-l10n-es
 Architecture: all

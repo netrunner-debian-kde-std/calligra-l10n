@@ -4,7 +4,7 @@ calligra-l10n (1:2.7.1-0r1.3) UNRELEASED; urgency=low
   * New upstream release:
     - 4 new translations are provided : Bosnian, Galicia, Slovenian and
       Turkish.
-    - Czech translation is removed.
+    - British translation is removed.
   * These packages should be in section localization and not KDE
     (fix the override disparities)
   * update to my new official email address 
