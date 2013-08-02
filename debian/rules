@@ -47,7 +47,11 @@ check_control:
 prepare_build: check_control
 	dh_testdir
 
-build: $(STAMP_BUILD)
+build: build-arch build-indep
+build-arch: build-stamp
+# no indep files, only arch: all
+build-indep:
+build-stamp: $(STAMP_BUILD)
 
 build_progress = [$(shell ls -1 -d debian/stamp__*__build debian | wc -l)/$(words $(STAMP_BUILD))]
 $(STAMP_BUILD): | prepare_build
