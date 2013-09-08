@@ -1,0 +1,56 @@
+
+==================================
+Debian packaging of calligra-l10n
+==================================
+
+This file aims to document the packaging of calligra-l10n for Debian. Please feel free to improve it if necessary.
+
+It is mainly a reminder for myself, and an help for the newcomers :)
+
+Howto get the upstream sources ?
+=================================
+
+Upstream provide an archive per language for each release, accessible on the FTP_ of KDE:
+
+
+.. _FTP: ftp://ftp.kde.org/pub/kde/stable/calligra-latest/calligra-l10n/
+
+Debian Packaging
+=================
+
+The upstream code is not included in git, but only the debian/ directory.
+
+The master branch should be for sid, and each debian release (wheezy, etc.) has its own branch.
+
+To prepare a release into Debian, don't forget:
+
+- to update the copyright file
+- write every debian changes on the changelog.
+- correct all the lintian warnings
+- be sure about if files has been added or removed
+- dch -r to prepare the changelog for an upload
+- tag the release in git when we get the accepted mail
+
+How to create the debian package?
+==================================
+
+Download the localization archives in a folder “upstream”, and run upstream2orig ::
+
+  ./debian/upstream2orig ../upstream/*
+
+I am using sbuild_ to ensure everything will be OK. ::
+
+    sbuild-update -udg unstable
+    sbuild -A -d unstable
+
+
+.. _sbuild: http://wiki.debian.org/sbuild
+
+Usefull links
+==============
+
+http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra-l10n.git;a=summary
+http://packages.qa.debian.org/c/calligra-l10n.html
+
+
+.. vim:set filetype=rst:

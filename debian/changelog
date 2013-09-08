@@ -12,6 +12,7 @@ calligra-l10n (1:2.7.1-0r1) UNRELEASED; urgency=low
     add build-arch and build-indep targets 
   * update to Debian policy 3.9.4 (nothing to do) 
   * upstream use now xz compression
+  * document the packaging in debian/README.source
 
  -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:19:04 +0200
 
