@@ -13,6 +13,9 @@ calligra-l10n (1:2.7.2-0r1) UNRELEASED; urgency=low
   * upstream use now xz compression
   * document the packaging in debian/README.source
 
+  [ Pino Toscano ]
+  * Bump the calligra-libs dependency to >= 2.7.2.
+
  -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:19:04 +0200
 
 calligra-l10n (1:2.4.3-1) unstable; urgency=low
