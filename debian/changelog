@@ -2,15 +2,15 @@ calligra-l10n (1:2.7.2-0r1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * New upstream release:
-    - 4 new translations are provided : Bosnian, Galicia, Slovenian and
+    - 4 new translations are provided: Bosnian, Galicia, Slovenian and
       Turkish.
     - British and Cavalencia translation are removed.
   * These packages should be in section localization and not KDE
     (fix the override disparities)
-  * update to my new official email address 
+  * update to my new official email address
   * lintian: debian-rules-missing-recommended-target
-    add build-arch and build-indep targets 
-  * update to Debian policy 3.9.4 (nothing to do) 
+    add build-arch and build-indep targets
+  * update to Debian policy 3.9.4 (nothing to do)
   * upstream use now xz compression
   * document the packaging in debian/README.source
 
