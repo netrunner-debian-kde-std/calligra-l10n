@@ -22,6 +22,7 @@ calligra-l10n (1:2.7.5-1) UNRELEASED; urgency=low
   * Bump Standards-Version, no changes needed.
   * Re add cavalencia package.
   * New language: ia
+  * Add myself to the uploaders field.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 04 Dec 2013 12:36:07 +0100
 

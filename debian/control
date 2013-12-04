@@ -2,7 +2,8 @@ Source: calligra-l10n
 Section: localization
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Adrien Grellier <perso@adrieng.fr>
+Uploaders: Adrien Grellier <perso@adrieng.fr>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake, debhelper (>= 9), bzip2, kdelibs5-dev (>= 4:4.4.0),
                gettext
 Standards-Version: 3.9.5
