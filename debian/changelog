@@ -1,4 +1,4 @@
-calligra-l10n (1:2.7.2-0r1) UNRELEASED; urgency=low
+calligra-l10n (1:2.7.5-1) UNRELEASED; urgency=low
 
   [ Adrien Grellier ]
   * New upstream release:
@@ -16,7 +16,7 @@ calligra-l10n (1:2.7.2-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Bump the calligra-libs dependency to >= 2.7.2.
 
- -- Adrien Grellier <perso@adrieng.fr>  Fri, 02 Aug 2013 18:19:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 04 Dec 2013 12:36:07 +0100
 
 calligra-l10n (1:2.4.3-1) unstable; urgency=low
 
