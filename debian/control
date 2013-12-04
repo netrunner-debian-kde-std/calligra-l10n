@@ -34,17 +34,17 @@ Description: Catalan (ca) localization files for Calligra
  This package contains the Catalan translations for all the applications
  in the Calligra Office Suite.
 
-#Package: calligra-l10n-cavalencia
-#Architecture: all
-#Depends: ${misc:Depends}, ${calligra:Depends}
-#Recommends: ${calligra:Recommends}, kde-l10n-cavalencia
-#Suggests: ${calligra:Suggests}
-#Replaces: koffice-l10n-cavalencia (<< 1:2.4), ${calligra:Replaces}
-#Breaks: koffice-l10n-cavalencia (<< 1:2.4), ${calligra:Breaks}
-#Provides: ${calligra:Provides}
-#Description: Southern Catalan (Valencian) (ca@valencia) files for Calligra
-# This package contains the Southern Catalan (Valencian) translations for all
-# the applications in the Calligra Office Suite.
+Package: calligra-l10n-cavalencia
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-cavalencia
+Suggests: ${calligra:Suggests}
+Replaces: koffice-l10n-cavalencia (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-cavalencia (<< 1:2.4), ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Southern Catalan (Valencian) (ca@valencia) files for Calligra
+ This package contains the Southern Catalan (Valencian) translations for all
+ the applications in the Calligra Office Suite.
 
 Package: calligra-l10n-cs
 Architecture: all

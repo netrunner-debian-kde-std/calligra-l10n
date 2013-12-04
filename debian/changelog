@@ -20,6 +20,7 @@ calligra-l10n (1:2.7.5-1) UNRELEASED; urgency=low
   * Update build dependencies.
   * Add more phony targets.
   * Bump Standards-Version, no changes needed.
+  * Re add cavalencia package.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 04 Dec 2013 12:36:07 +0100
 
