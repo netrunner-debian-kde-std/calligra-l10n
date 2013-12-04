@@ -3,7 +3,7 @@ Section: localization
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <perso@adrieng.fr>
-Build-Depends: cmake, debhelper (>= 7.3.16), bzip2, kdelibs5-dev (>= 4:4.4.0)
+Build-Depends: cmake, debhelper (>= 9), bzip2, kdelibs5-dev (>= 4:4.4.0)
 Standards-Version: 3.9.4
 Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra-l10n.git
@@ -104,7 +104,7 @@ Description: Greek (el) localization files for Calligra
 # Description: British English (en_GB) localization files for Calligra
 #  This package contains the British English (en_GB) translations
 #  for all the applications in the Calligra Office Suite.
- 
+
 Package: calligra-l10n-es
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
@@ -272,7 +272,7 @@ Provides: ${calligra:Provides}
 Description: Brazilian Portuguese (pt_BR) localization files for Calligra
  This package contains the Brazilian Portuguese translations for all
  the applications in the Calligra Office Suite.
- 
+
 Package: calligra-l10n-ru
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
