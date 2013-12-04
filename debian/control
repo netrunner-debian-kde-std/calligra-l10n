@@ -178,6 +178,18 @@ Description: Hungarian (hu) localization files for Calligra
  This package contains the Hungarian translations for all the applications
  in the Calligra Office Suite.
 
+Package: calligra-l10n-ia
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-ia
+Suggests: ${calligra:Suggests}
+Replaces: koffice-l10n-ia (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-ia (<< 1:2.4), ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Interlingua (ia) localization files for Calligra
+ This package contains the Interlingua translations for all the applications
+ in the Calligra Office Suite.
+
 Package: calligra-l10n-it
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
