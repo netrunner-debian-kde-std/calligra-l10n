@@ -8,7 +8,7 @@ ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
 endif
 
 # Value of the calligra:{Depends,Recommends,Suggests,Replaces,Breaks,Provides}
-# substvars. Common relationships for each l10n package. 
+# substvars. Common relationships for each l10n package.
 L10N_Depends := calligra-libs (>= 1:2.7.2)
 L10N_Recommends :=
 L10N_Suggests := calligra
@@ -107,5 +107,6 @@ binary-indep: build install
 # Below here is fairly generic really
 binary: binary-indep binary-arch
 
-.PHONY: binary binary-arch binary-indep clean patch build install
+.PHONY: binary binary-arch binary-indep build build-arch build-indep
+.PHONY: clean install patch
 .PHONY: check_control prepare_build prepare_install $(L10N_INSTALL) $(L10N_CLEAN)
