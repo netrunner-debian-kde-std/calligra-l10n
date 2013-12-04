@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Adrien Grellier <perso@adrieng.fr>
 Build-Depends: cmake, debhelper (>= 9), bzip2, kdelibs5-dev (>= 4:4.4.0),
                gettext
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.calligra-suite.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/calligra-l10n.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/calligra-l10n.git;a=summary
