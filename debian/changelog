@@ -1,5 +1,7 @@
 calligra-l10n (1:2.7.5-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Fix typo in the description of calligra-l10n-sl.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Dec 2013 20:24:55 +0100
 
