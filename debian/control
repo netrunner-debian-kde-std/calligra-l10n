@@ -131,6 +131,16 @@ Description: Estonian (et) localization files for Calligra
  This package contains the Estonian translations for all the applications
  in the Calligra Office Suite.
 
+Package: calligra-l10n-eu
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-eu
+Suggests: ${calligra:Suggests}
+Provides: ${calligra:Provides}
+Description: Basque (eu) localization files for Calligra
+ This package contains the Basque translations for all the applications
+ in the Calligra Office Suite.
+
 Package: calligra-l10n-fi
 Architecture: all
 Depends: ${misc:Depends}, ${calligra:Depends}
@@ -179,17 +189,17 @@ Description: Hungarian (hu) localization files for Calligra
  This package contains the Hungarian translations for all the applications
  in the Calligra Office Suite.
 
-Package: calligra-l10n-ia
-Architecture: all
-Depends: ${misc:Depends}, ${calligra:Depends}
-Recommends: ${calligra:Recommends}, kde-l10n-ia
-Suggests: ${calligra:Suggests}
-Replaces: koffice-l10n-ia (<< 1:2.4), ${calligra:Replaces}
-Breaks: koffice-l10n-ia (<< 1:2.4), ${calligra:Breaks}
-Provides: ${calligra:Provides}
-Description: Interlingua (ia) localization files for Calligra
- This package contains the Interlingua translations for all the applications
- in the Calligra Office Suite.
+#Package: calligra-l10n-ia
+#Architecture: all
+#Depends: ${misc:Depends}, ${calligra:Depends}
+#Recommends: ${calligra:Recommends}, kde-l10n-ia
+#Suggests: ${calligra:Suggests}
+#Replaces: koffice-l10n-ia (<< 1:2.4), ${calligra:Replaces}
+#Breaks: koffice-l10n-ia (<< 1:2.4), ${calligra:Breaks}
+#Provides: ${calligra:Provides}
+#Description: Interlingua (ia) localization files for Calligra
+# This package contains the Interlingua translations for all the applications
+# in the Calligra Office Suite.
 
 Package: calligra-l10n-it
 Architecture: all
@@ -333,15 +343,15 @@ Description: Swedish (sv) localization files for Calligra
  This package contains the Swedish translations for all the applications
  in the Calligra Office Suite.
 
-Package: calligra-l10n-tr
-Architecture: all
-Depends: ${misc:Depends}, ${calligra:Depends}
-Recommends: ${calligra:Recommends}, kde-l10n-tr
-Suggests: ${calligra:Suggests}
-Provides: ${calligra:Provides}
-Description: Turkish (tr) localization files for Calligra
- This package contains the Turkish translations for all the applications
- in the Calligra Office Suite.
+#Package: calligra-l10n-tr
+#Architecture: all
+#Depends: ${misc:Depends}, ${calligra:Depends}
+#Recommends: ${calligra:Recommends}, kde-l10n-tr
+#Suggests: ${calligra:Suggests}
+#Provides: ${calligra:Provides}
+#Description: Turkish (tr) localization files for Calligra
+# This package contains the Turkish translations for all the applications
+# in the Calligra Office Suite.
 
 Package: calligra-l10n-uk
 Architecture: all

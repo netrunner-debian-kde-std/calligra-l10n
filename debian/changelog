@@ -6,6 +6,8 @@ calligra-l10n (1:2.8.2-1) UNRELEASED; urgency=medium
 
   [ Adrien Grellier ]
   * New upstream release: 2.8.2 
+     - New languages: Basque (eu)
+     - remove languages: Interlingua (ia), Turkish (tr)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Dec 2013 20:24:55 +0100
 
