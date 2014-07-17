@@ -11,6 +11,7 @@ calligra-l10n (1:2.8.5-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release.
+  * Refresh languages, reenable engb, add ja, remove sl.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jul 2014 09:38:51 +0200
 

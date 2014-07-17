@@ -95,17 +95,17 @@ Description: Greek (el) localization files for Calligra
  This package contains the greek translations for all the applications
  in the Calligra Office Suite.
 
-# Package: calligra-l10n-engb
-# Architecture: all
-# Depends: ${misc:Depends}, ${calligra:Depends}
-# Recommends: ${calligra:Recommends}, kde-l10n-engb
-# Suggests: ${calligra:Suggests}
-# Replaces: koffice-l10n-engb (<< 1:2.4), ${calligra:Replaces}
-# Breaks: koffice-l10n-engb (<< 1:2.4), ${calligra:Breaks}
-# Provides: ${calligra:Provides}
-# Description: British English (en_GB) localization files for Calligra
-#  This package contains the British English (en_GB) translations
-#  for all the applications in the Calligra Office Suite.
+Package: calligra-l10n-engb
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-engb
+Suggests: ${calligra:Suggests}
+Replaces: koffice-l10n-engb (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-engb (<< 1:2.4), ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: British English (en_GB) localization files for Calligra
+ This package contains the British English (en_GB) translations
+ for all the applications in the Calligra Office Suite.
 
 Package: calligra-l10n-es
 Architecture: all
@@ -211,6 +211,18 @@ Breaks: koffice-l10n-it (<< 1:2.4), ${calligra:Breaks}
 Provides: ${calligra:Provides}
 Description: Italian (it) localization files for Calligra
  This package contains the Italian translations for all the applications
+ in the Calligra Office Suite.
+
+Package: calligra-l10n-ja
+Architecture: all
+Depends: ${misc:Depends}, ${calligra:Depends}
+Recommends: ${calligra:Recommends}, kde-l10n-ja
+Suggests: ${calligra:Suggests}
+Replaces: koffice-l10n-ja (<< 1:2.4), ${calligra:Replaces}
+Breaks: koffice-l10n-ja (<< 1:2.4), ${calligra:Breaks}
+Provides: ${calligra:Provides}
+Description: Japanese (ja) localization files for Calligra
+ This package contains the Japanese translations for all the applications
  in the Calligra Office Suite.
 
 Package: calligra-l10n-kk
@@ -321,15 +333,15 @@ Description: Slovakian (sk) localization files for Calligra
  This package contains the Slovakian translations for all the applications
  in the Calligra Office Suite.
 
-Package: calligra-l10n-sl
-Architecture: all
-Depends: ${misc:Depends}, ${calligra:Depends}
-Recommends: ${calligra:Recommends}, kde-l10n-sl
-Suggests: ${calligra:Suggests}
-Provides: ${calligra:Provides}
-Description: Slovenian (sl) localization files for Calligra
- This package contains the Slovenian translations for all the applications
- in the Calligra Office Suite.
+#Package: calligra-l10n-sl
+#Architecture: all
+#Depends: ${misc:Depends}, ${calligra:Depends}
+#Recommends: ${calligra:Recommends}, kde-l10n-sl
+#Suggests: ${calligra:Suggests}
+#Provides: ${calligra:Provides}
+#Description: Slovenian (sl) localization files for Calligra
+# This package contains the Slovenian translations for all the applications
+# in the Calligra Office Suite.
 
 Package: calligra-l10n-sv
 Architecture: all
