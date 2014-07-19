@@ -11,6 +11,7 @@ calligra-l10n (1:2.8.5-1~) UNRELEASED; urgency=medium
 
   [ Raúl Sánchez Siles ]
   * Add watch file so uscan can retrieve upstream tarballs.
+  * Filter out mercurial repositories as well in search for L10N_LANGS.
 
   [ Maximiliano Curia ]
   * New upstream release.
