@@ -1,0 +1,90 @@
+version=3
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-bs-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-ca-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-ca@valencia-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-cs-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-da-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-de-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-el-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-en_GB-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-es-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-et-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-eu-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-fi-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-fr-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-gl-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-hu-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-it-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-ja-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-kk-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-nb-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-nds-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-nl-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-pl-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-pt-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-pt_BR-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-ru-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-sk-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-sv-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-uk-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-zh_CN-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/calligra-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lcalligra-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/calligra-([\d\.]*)/calligra-l10n/calligra-l10n-zh_TW-([\d\.]*).tar.xz

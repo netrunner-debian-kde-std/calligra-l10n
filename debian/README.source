@@ -34,6 +34,8 @@ To prepare a release into Debian, don't forget:
 How to create the debian package?
 ==================================
 
+uscan --destdir ../upstream --no-symlink
+
 Download the localization archives in a folder “upstream”, and run upstream2orig ::
 
   ./debian/upstream2orig ../upstream/*
